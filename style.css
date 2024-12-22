@@ -1,0 +1,76 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+/* common css */
+section{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Counter */
+#counter{
+    max-width: 450px;
+    background-color: red;
+    display: flex;
+}
+#counter *{
+    width: 33.33%;
+    height: 40px;
+    outline: none;
+}
+#counter button{
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#counter input{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Password */
+
+#formGroup{
+    position: relative;
+}
+
+#formGroup input{
+    width: 450px;
+    height: 45px;
+    border: 1px solid #aaa;
+    border-radius: 50px;
+    outline: none;
+    padding: 0 15px;
+}
+
+.eyeBtn{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
